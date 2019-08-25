@@ -1,10 +1,10 @@
 import React,{Component} from 'react';
 import {Container} from 'reactstrap';
-import logo from './logo.svg';
 import './App.css';
 import Header from "./components/Header"
 import Map from "./components/Map"
 require('dotenv').config();
+
 class App extends Component {
 constructor(props){
   super(props);
